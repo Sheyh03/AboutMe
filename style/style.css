@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /* Уберает Кругляши у li */
+    text-decoration: none;
+    /* Уберает Подчеркивания у ссылок */
+}
+
+
+.header {
+    background: #000000;
+}
+
+.nav {
+    max-width: 1157px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    max-width: 513px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.link a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 23px;
+    display: inline-block;
+    transition: .4s;
+}
+
+.link a:hover {
+    background: white;
+    color: #000000;
+}
+
+.logo {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.content {
+    height: 850px;
+    background: url(../img/header_bg.png)center center / cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 145px;
+}
+
+.content__title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.content__btn {
+    padding: 10px 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+}
+
+/* Main */
+
+.about {
+    background: #0E1C25;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+
+.about__title {
+    text-align: center;
+    margin-bottom: 49px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 106px;
+    padding: 0 15px;
+}
+
+.about__inner_right {
+    max-width: 466px;
+}
+
+.about__inner_right-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.about__inner_right-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+/* Main end */
+
+.works {
+    padding-top: 43px;
+    padding-bottom: 70px;
+    background: #5C6B81;
+}
+
+.works__title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.works__cards {
+    max-width: 1188px;
+    width: 100%;
+    margin: 62px auto 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 15px;
+}
+
+.works__card {
+    max-width: 312px;
+    width: 100%;
+    padding: 15px 15px 27px 15px;
+    background: #B12B06;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.works__card:hover {
+    transform: scale(1.1);
+}
+
+.works__card_title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.works__card_text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+    max-width: 262px;
+}
+
+.works__card_btn {
+    padding: 8px 24px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+.footer {
+    background: #000000;
+    padding: 47px 15px 55px 15px;
+}
+
+.footer__title {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+.footer__contacts {
+    max-width: 1094px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
